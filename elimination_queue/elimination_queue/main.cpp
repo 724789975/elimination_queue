@@ -57,7 +57,7 @@ void test(EliminationQueue::TListPoolEx<Test4>& pool)
 	}
 }
 
-void t(int& ref) {}
+void t(const int& ref) {}
 
 int main()
 {

@@ -17,7 +17,7 @@ namespace EliminationQueue
 			T m_tData;
 		};
 	public:
-		typedef void OnElimination(T& ref);
+		typedef void OnElimination(const T& ref);
 
 		Queue(OnElimination* pfun) : m_pfunOnElimination(pfun) {}
 
